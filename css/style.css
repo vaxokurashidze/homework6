@@ -1,0 +1,91 @@
+.stars {
+	background: url(../img/stars.png);
+	background-size: cover;
+	height: 720px;
+    width: 1370px;
+    top: 0;
+    left: 0;
+  
+}
+.soccer {
+	background: url(../img/soccer.png);
+	background-size: cover;
+    height: 720px;
+    width: 1370px;
+}
+.messi {
+    width: 150px;
+    height:100px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    animation: messi 20s linear infinite reverse;
+}
+
+@keyframes messi {
+  from {left: 0px;}
+  to {left: 1270px;}
+}
+.diego {
+    width: 80px;
+    height:70px;
+    position:absolute;
+    top: 520px;
+    left: 0;
+    animation: diego 10s linear infinite;
+}
+
+@keyframes diego {
+  from {left: 0px;}
+  to {left: 350px;}
+}
+
+.referee {
+    width: 130px;
+    height:100px;
+    position:absolute;
+    bottom:2px;
+    left:1100px;
+    animation: referee 10s linear infinite;
+
+}
+
+@keyframes referee {
+  0%   {top:610px;}
+  25%  {top:612px;}
+  75%  {top:614px}
+  100% {top:616px;}
+}
+
+.ramos {
+    width: 100px;
+    height:90px;
+    position:absolute;
+    bottom:10px;
+    left:1000px;
+    animation:ramos 10s linear infinite;
+
+}
+
+@keyframes ramos {
+  0%   {top:610px;}
+  25%  {top:612px;}
+  75%  {top:614px}
+  100% {top:616px;}
+}
+
+.camera {
+    width: 180px;
+    height:120px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    animation: camera 20s linear infinite reverse;
+}
+
+@keyframes camera {
+  from {left: 0px;}
+  to {left: 1270px;}
+}
+
+
